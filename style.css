@@ -1,0 +1,20 @@
+.photo
+{
+    margin-top: 80px;
+    width: 130px;
+    height: 160px;
+    border: 1px solid black;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.font-wei
+{
+    font-weight: bold;
+}
+
+.text-center   
+{
+    text-align: center;
+    font-family: Times New Roman;
+}
