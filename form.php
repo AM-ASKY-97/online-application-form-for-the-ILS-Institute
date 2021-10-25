@@ -119,7 +119,7 @@
         $pdf->SetFont("","",11);
         $pdf->Cell(0,6,"",0,1);
         $pdf->Cell(87,0,"",0,0,);
-        $pdf->Cell(0,0,"{$iname}",0,1);
+        $pdf->Cell(0,0,"{$name}",0,1);
 
         $pdf->Cell(0,2,"",0,1);
         $pdf->Cell(80,0,"",0,0);
@@ -135,7 +135,7 @@
         $pdf->SetFont("","",11);
         $pdf->Cell(0,10,"",0,1);
         $pdf->Cell(87,0,"",0,0,);
-        $pdf->Cell(0,0,"{$name}",0,1);
+        $pdf->Cell(0,0,"{$iname}",0,1);
 
         $pdf->Cell(0,2,"",0,1);
         $pdf->Cell(80,0,"",0,0);

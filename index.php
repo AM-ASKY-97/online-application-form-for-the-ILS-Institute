@@ -204,7 +204,7 @@
                     </div>
                     <div class="col-md-8">
                         <div class="row">
-                            <div class="col-4">
+                            <div class="col-5">
                                 <div class="form-group">
                                     <div class="form-check">
                                     <input class="form-check-input" type="checkbox" value="have" name="Al" id="gec_al" >
@@ -215,7 +215,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-4">
+                            <div class="col-5">
                                     <div class="form-group">
                                         <div class="form-check">
                                         <input class="form-check-input" type="checkbox" value="have" name="Ol" id="gce-ol">
