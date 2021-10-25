@@ -51,7 +51,7 @@
         </div>
 
 
-        <form action="">
+        <form action="form.php" method="post">
 
             <div class="form-qroup">
                 <div class="row mt-3 font-weight-bold">
@@ -63,9 +63,8 @@
                             <div class="col-md-6">
                                 <div class="form-group">
                                     <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="DIPLOMA IN SPOKEN ENGLISH" id="english" >
-                                    <label class="form-check-label
-                                    " for="english">
+                                    <input class="form-check-input" type="checkbox" name="english" value="DIPLOMA IN SPOKEN ENGLISH" id="english" >
+                                    <label class="form-check-label" for="english">
                                         DIPLOMA IN SPOKEN ENGLISH
                                     </label>
                                     </div>
@@ -75,9 +74,9 @@
                             <div class="col-md-6">
                                     <div class="form-group">
                                         <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" value="DIPLOMA IN SPOKEN ENGLISH" id="sinhala">
+                                        <input class="form-check-input" type="checkbox" name="sinhala" value="DIPLOMA IN SPOKEN SINHALA" id="sinhala">
                                         <label class="form-check-label" for="sinhala">
-                                        DIPLOMA IN SPOKEN SINHALA
+                                            DIPLOMA IN SPOKEN SINHALA
                                         </label>
                                         </div>
                                     </div>
@@ -94,7 +93,7 @@
                     </div>
 
                     <div class="col-md-8"> 
-                        <input type="text" class="form-control" id="initial" placeholder="Name with Initials">
+                        <input type="text" class="form-control" id="initial" name="fname" placeholder="Name with Initials" Required>
                     </div>
                 </div> 
             </div>
@@ -106,7 +105,7 @@
                     </div>
 
                     <div class="col-md-8">
-                        <input type="text" class="form-control" id="Name" placeholder="Name/Names denoted by Initials">
+                        <input type="text" class="form-control" id="Name" name="iname" placeholder="Name/Names denoted by Initials" Required>
                     </div>
                 </div> 
             </div>
@@ -118,7 +117,7 @@
                     </div>
 
                     <div class="col-md-8">
-                        <input type="text" class="form-control" id="address" placeholder="Address">
+                        <input type="text" class="form-control" name="address" id="address" placeholder="Address" Required>
                     </div>
                 </div> 
             </div>
@@ -127,21 +126,21 @@
             <div class="form-group">
                 <div class="row">
                     <div class="col-md-4 font-weight-bold">
-                        <label class="col-form-label" for="address">3. Date of Birth</label>
+                        <label class="col-form-label" for="address">4. Date of Birth</label>
                     </div>
 
                     <div class="col-md-8">
                         <div class="row">
                             <div class="col-4">
-                                <input type="text" class="form-control"  placeholder="Year">
+                                <input type="text" class="form-control"  name="year" placeholder="Year" Required maxlength="4">
                             </div>
 
                             <div class="col-4">
-                                <input type="text" class="form-control"  placeholder="Month">
+                                <input type="text" class="form-control" name="month"  placeholder="Month" Required maxlength="2">
                             </div>
 
                             <div class="col-4">
-                                <input type="text" class="form-control"  placeholder="Day">
+                                <input type="text" class="form-control"  name="day" placeholder="Day" Required maxlength="2">
                             </div>
                             
                         </div>
@@ -152,11 +151,11 @@
             <div class="form-group">
                 <div class="row">
                     <div class="col-md-4 font-weight-bold">
-                        <label class="col-form-label" for="nic">3. National Identity Card No</label>
+                        <label class="col-form-label" for="nic">5. National Identity Card No</label>
                     </div>
 
                     <div class="col-md-8">
-                        <input type="text" class="form-control" id="nic" placeholder="National Identity Card No">
+                        <input type="text" class="form-control" id="nic" name="nic" placeholder="National Identity Card No">
                     </div>
                 </div> 
             </div>
@@ -165,7 +164,7 @@
             <div class="form-group">
                 <div class="row">
                     <div class="col-md-4 font-weight-bold">
-                        <label class="col-form-label" for="nic">3. Sex</label>
+                        <label class="col-form-label" for="nic">6. Sex</label>
                     </div>
 
                     <div class="col-md-8">
@@ -208,7 +207,7 @@
                             <div class="col-4">
                                 <div class="form-group">
                                     <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="have" id="gec_al" >
+                                    <input class="form-check-input" type="checkbox" value="have" name="Al" id="gec_al" >
                                     <label class="form-check-label" for="gec_al">
                                         GCE (A/L)
                                     </label>
@@ -219,7 +218,7 @@
                             <div class="col-4">
                                     <div class="form-group">
                                         <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" value="have" id="gce-ol">
+                                        <input class="form-check-input" type="checkbox" value="have" name="Ol" id="gce-ol">
                                         <label class="form-check-label" for="gce-ol">
                                             GCE (O/L)
                                         </label>
@@ -260,7 +259,7 @@
                     </div>
 
                     <div class="col-md-8">
-                        <input type="text" class="form-control" id="hight" placeholder="highest Qualification in English as a subject">
+                        <input type="text" class="form-control" id="hight" name="high" placeholder="highest Qualification in English as a subject">
                     </div>
                 </div> 
             </div>
@@ -273,7 +272,7 @@
                     </div>
 
                     <div class="col-md-8">
-                        <input type="text" class="form-control" id="any" placeholder=" Details of Occupation (If any)">
+                        <input type="text" class="form-control" id="any" name="occu" placeholder=" Details of Occupation (If any)">
                     </div>
                 </div> 
             </div>
