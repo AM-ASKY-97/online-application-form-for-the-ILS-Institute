@@ -15,14 +15,14 @@
   <body>
       
      <div class="container">
-         <div class="row mt-3 ">
+         <div class="row mt-3">
               <!--logo-->
-              <div class="col-md-2">
+              <div class="col-md-2 d-none d-lg-block">
                   <img src="Najeem HETC.png" alt="" width="220px" height="270px" >
               </div>
 
               <!--Application-->
-              <div class="col-md-8 text-center">
+              <div class="col-md-8 text-center ">
                   <h1 class="display-5">APPLICATION FORM</h1>
 
                   <h4>S.L. Najeem (SLDS)</h4>
@@ -36,10 +36,16 @@
               </div>
 
               <!--Photo-->
-              <div class="col-md-2">
+              <div class="col-md-2 d-none d-lg-block">
                   <div class="photo">Affix here a Passport Size Photo</div>
               </div>
         
+        </div>
+
+        <div class="row">
+            <div class="col">
+                <hr>
+            </div>
         </div>
 
 
