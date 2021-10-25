@@ -168,8 +168,8 @@
 
                     <div class="col-md-8">
                         <div class="row">
-                            <div class="col-3"><label class="radio-inline"><input type="radio" name="sex" checked value="Male">Male</label></div>
-                            <div class="col-3"><label class="radio-inline"><input type="radio" name="sex" value="Female">Female</label></div> 
+                            <div class="col-4"><label class="radio-inline"><input type="radio" name="sex" checked value="Male">Male</label></div>
+                            <div class="col-4"><label class="radio-inline"><input type="radio" name="sex" value="Female">Female</label></div> 
                         </div>
                     </div>
                 </div> 
@@ -203,7 +203,7 @@
                     </div>
                     <div class="col-md-8">
                         <div class="row">
-                            <div class="col-3">
+                            <div class="col-4">
                                 <div class="form-group">
                                     <div class="form-check">
                                     <input class="form-check-input" type="checkbox" value="have" id="gec_al" >
@@ -214,7 +214,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-3">
+                            <div class="col-4">
                                     <div class="form-group">
                                         <div class="form-check">
                                         <input class="form-check-input" type="checkbox" value="have" id="gce-ol">
