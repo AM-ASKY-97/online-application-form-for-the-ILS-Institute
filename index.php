@@ -6,6 +6,8 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
+    <script src="https://kit.fontawesome.com/2759fd8f76.js" crossorigin="anonymous"></script>
+
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     
@@ -184,11 +186,11 @@
                     <div class="col-md-8">
                         <div class="row">
                             <div class="col-6">
-                                <input type="text" class="form-control"  placeholder="Mobile" name="mobile">
+                                <input type="text" class="form-control"  placeholder="Mobile" name="mobile" maxlength="10">
                             </div>
 
                             <div class="col-6">
-                                <input type="text" class="form-control"  placeholder="Whatsapp" name="whatsapp">
+                                <input type="text" class="form-control"  placeholder="Whatsapp" name="whatsapp" maxlength="10">
                             </div>
                         </div>
                     </div>
@@ -294,6 +296,9 @@
             </div>
 
         </form>
+
+        <p> <a href="https://web.facebook.com/ILS-Institute"><i class="fab fa-facebook"></i> https://web.facebook.com/ILS-Institute</a></p>
+
      </div>   
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
