@@ -14,7 +14,7 @@
 </head>
   <body>
       
-     <div class="container">
+     <div class="container mt-2 mb-2 border border-dark rounded ">
          <div class="row mt-3">
               <!--logo-->
               <div class="col-md-2 d-none d-lg-block">
@@ -44,7 +44,7 @@
 
         <div class="row">
             <div class="col">
-                <hr>
+                <hr style="height:2px;border-width:0;color:gray;background-color:gray">
             </div>
         </div>
 
@@ -157,6 +157,140 @@
                         <input type="text" class="form-control" id="nic" placeholder="National Identity Card No">
                     </div>
                 </div> 
+            </div>
+
+
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-md-4 font-weight-bold">
+                        <label class="col-form-label" for="nic">3. Sex</label>
+                    </div>
+
+                    <div class="col-md-8">
+                        <div class="row">
+                            <div class="col-3"><label class="radio-inline"><input type="radio" name="sex" checked value="Male">Male</label></div>
+                            <div class="col-3"><label class="radio-inline"><input type="radio" name="sex" value="Female">Female</label></div> 
+                        </div>
+                    </div>
+                </div> 
+            </div>
+
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-md-4 font-weight-bold">
+                        <label class="col-form-label" for="address">7. Contact No</label>
+                    </div>
+
+                    <div class="col-md-8">
+                        <div class="row">
+                            <div class="col-6">
+                                <input type="text" class="form-control"  placeholder="Mobile" name="mobile">
+                            </div>
+
+                            <div class="col-6">
+                                <input type="text" class="form-control"  placeholder="Whatsapp" name="whatsapp">
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+
+
+            <div class="form-qroup">
+                <div class="row mt-3 ">
+                    <div class="col-md-4">
+                        <label for="Course" class="font-weight-bold">8. Education Qualification</label>
+                    </div>
+                    <div class="col-md-8">
+                        <div class="row">
+                            <div class="col-3">
+                                <div class="form-group">
+                                    <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="have" id="gec_al" >
+                                    <label class="form-check-label" for="gec_al">
+                                        GCE (A/L)
+                                    </label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-3">
+                                    <div class="form-group">
+                                        <div class="form-check">
+                                        <input class="form-check-input" type="checkbox" value="have" id="gce-ol">
+                                        <label class="form-check-label" for="gce-ol">
+                                            GCE (O/L)
+                                        </label>
+                                        </div>
+                                    </div>
+                            </div>
+                        </div>
+                    </div>                
+                </div>
+            </div>
+
+
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-md-4 font-weight-bold">
+                        <label class="col-form-label" for="address"></label>
+                    </div>
+
+                    <div class="col-md-8">
+                        <div class="row">
+                            <div class="col-2">
+                                <label class="col-form-label" for="address">Grade</label>
+                            </div>
+
+                            <div class="col-4">
+                                <input type="text" class="form-control"  placeholder="grade" name="grade">
+                            </div>
+                        </div>
+                    </div>
+                </div> 
+            </div>
+
+
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-md-4 font-weight-bold">
+                        <label class="col-form-label" for="hight">9. Highest Qualification in English as a subject</label>
+                    </div>
+
+                    <div class="col-md-8">
+                        <input type="text" class="form-control" id="hight" placeholder="highest Qualification in English as a subject">
+                    </div>
+                </div> 
+            </div>
+
+
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-md-4 font-weight-bold">
+                        <label class="col-form-label" for="any">10. Details of Occupation (If any) </label>
+                    </div>
+
+                    <div class="col-md-8">
+                        <input type="text" class="form-control" id="any" placeholder=" Details of Occupation (If any)">
+                    </div>
+                </div> 
+            </div>
+
+            <div class="row">
+                <div class="col">
+                    <p><strong>I hereby certify that the information furnished here is true and accurate to the best of my knowledge</strong></p>
+                </div>
+            </div>
+
+            <div class="row mb-3">
+                <div class="col-6">
+                    <button type="submit" class="btn btn-success  btn-block">Submit</button>
+                </div>    
+
+                <div class="col-6">
+                    <button type="submit" class="btn btn-danger  btn-block">Reset</button>
+                </div>
+                
             </div>
 
         </form>
