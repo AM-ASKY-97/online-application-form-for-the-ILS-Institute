@@ -278,12 +278,11 @@
             </div>
 
             <div class="row">
-                <div class="col">
+                <div class="col font-weight-bold">
                     <p>I hereby certify that the information furnished here is true and accurate to the best of my knowledge</p>
                 </div>
             </div>
 
-            <br>
 
             <div class="checkbox font-weight-bold">
                 <label><input type="checkbox" Required> The information is all correct</label>
