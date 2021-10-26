@@ -157,7 +157,7 @@
                     </div>
 
                     <div class="col-md-8">
-                        <input type="text" class="form-control" id="nic" name="nic" placeholder="National Identity Card No">
+                        <input type="text" class="form-control" id="nic" name="nic" placeholder="National Identity Card No" maxlength="12">
                     </div>
                 </div> 
             </div>
