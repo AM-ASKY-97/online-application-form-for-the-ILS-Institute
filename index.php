@@ -298,6 +298,15 @@
 
         <p> <a href="https://web.facebook.com/ILS-Institute"><i class="fab fa-facebook"></i> https://web.facebook.com/ILS-Institute</a></p>
 
+        <!-- Footer -->
+	        <div class="row text-center">
+                <div class="col bg-dark text-white text-uppercase pt-3">
+                    <h6>&#169 Copyright 2021 ILS Institute. All right reserved. |</h6> 
+                    <p>Designed By: A.M. Asky</p>
+                </div>
+            </div>
+        <!-- End Footer -->
+
      </div>   
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
