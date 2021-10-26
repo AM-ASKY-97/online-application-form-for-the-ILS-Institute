@@ -283,13 +283,13 @@
                 </div>
             </div>
 
-            <div class="row mb-3">
-                <div class="col-6">
+            <div class="row mb-3 ">
+                <div class="col-6 font-weight-bold">
                     <button type="submit" class="btn btn-success  btn-block">Submit</button>
                 </div>    
 
                 <div class="col-6">
-                    <button type="submit" class="btn btn-danger  btn-block">Reset</button>
+                    <button type="reset" class="btn btn-danger  btn-block">Reset</button>
                 </div>
                 
             </div>
