@@ -283,10 +283,13 @@
                 </div>
             </div>
 
+            <br>
+
             <div class="checkbox font-weight-bold">
                 <label><input type="checkbox" Required> The information is all correct</label>
             </div>
 
+            <br>
 
             <div class="row mb-3 ">
                 <div class="col-6 font-weight-bold">
@@ -314,7 +317,7 @@
 
      </div>   
 
-     
+
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
