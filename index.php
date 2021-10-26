@@ -36,7 +36,7 @@
                     <br> Institute of Language Studies (ILS) 
                     <br> Sammanthurai. </i> </p>
 
-                  <h5><b>Mobile & Whatsapp : 077-6542915, 076-0104094</b></h5>  
+                  <h5><b>Mobile & Whatsapp : 077-6542915 & 075-7697386</b></h5>  
               </div>
 
               <!--Photo-->
@@ -209,7 +209,7 @@
                             <div class="col-5">
                                 <div class="form-group">
                                     <div class="form-check">
-                                    <input class="form-check-input" type="checkbox" value="have" name="Al" id="gec_al" >
+                                    <input class="form-check-input" type="checkbox" value="X" name="Al" id="gec_al" >
                                     <label class="form-check-label" for="gec_al">
                                         GCE (A/L)
                                     </label>
@@ -220,7 +220,7 @@
                             <div class="col-5">
                                     <div class="form-group">
                                         <div class="form-check">
-                                        <input class="form-check-input" type="checkbox" value="have" name="Ol" id="gce-ol">
+                                        <input class="form-check-input" type="checkbox" value="X" name="Ol" id="gce-ol">
                                         <label class="form-check-label" for="gce-ol">
                                             GCE (O/L)
                                         </label>
