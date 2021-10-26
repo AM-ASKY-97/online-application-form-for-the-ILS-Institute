@@ -14,9 +14,9 @@
     <!--Css link-->
     <link rel="stylesheet" href="style.css">
 </head>
-  <body>
+  <body style="background-color: #6a46bc;">
       
-     <div class="container mt-2 mb-2 border border-dark rounded ">
+     <div class="container mt-2 mb-2 border border-dark rounded bg-light">
          <div class="row mt-3">
               <!--logo-->
               <div class="col-md-2 d-none d-lg-block">
@@ -25,7 +25,7 @@
 
               <!--Application-->
               <div class="col-md-8 text-center ">
-                  <h1 class="display-5">APPLICATION FORM</h1>
+                  <h1 class="display-5 ">APPLICATION FORM</h1>
 
                   <h4>S.L. Najeem (SLDS)</h4>
                   <p> <i>Trainer of English 
