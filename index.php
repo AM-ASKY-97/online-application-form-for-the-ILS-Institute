@@ -41,7 +41,7 @@
 
               <!--Photo-->
               <div class="col-md-2 d-none d-lg-block">
-                  <div class="photo">Affix here a Passport Size Photo</div>
+                  <div class="photo">Affix here a Passport <br> Size Photo</div>
               </div>
         
         </div>
