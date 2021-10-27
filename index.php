@@ -27,7 +27,7 @@
 
               <!--Application-->
               <div class="col-md-8 text-center ">
-                  <h1 class="display-5 text-primary">APPLICATION FORM</h1>
+                  <h1 class="display-5 text-info">APPLICATION FORM</h1>
 
                   <h4>S.L. Najeem (SLDS)</h4>
                   <p> <i>Trainer of English 
