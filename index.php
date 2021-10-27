@@ -53,7 +53,7 @@
         </div>
 
 
-        <form action="form.php" method="post" autocomplete="off">
+        <form action="form.php" method="post">
 
             <div class="form-qroup">
                 <div class="row mt-3 font-weight-bold">
@@ -223,7 +223,7 @@
                                     <div class="form-check">
                                     <input class="form-check-input" type="checkbox" value="X" name="Al" id="gec_al" >
                                     <label class="form-check-label" for="gec_al">
-                                        GCE (A/L)
+                                        Gce (A/L)
                                     </label>
                                     </div>
                                 </div>
@@ -234,7 +234,7 @@
                                         <div class="form-check">
                                         <input class="form-check-input" type="checkbox" value="X" name="Ol" id="gce-ol">
                                         <label class="form-check-label" for="gce-ol">
-                                            GCE (O/L)
+                                            Gce (O/L)
                                         </label>
                                         </div>
                                     </div>
