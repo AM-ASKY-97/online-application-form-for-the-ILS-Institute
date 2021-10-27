@@ -206,7 +206,19 @@
                     </div>
                     <div class="col-md-8">
                         <div class="row">
-                            <div class="col-5">
+
+                        <div class="col-4">
+                                <div class="form-group">
+                                    <div class="form-check">
+                                    <input class="form-check-input" type="checkbox" value="X" name="deg" id="degree" >
+                                    <label class="form-check-label" for="degree">
+                                        Degree
+                                    </label>
+                                    </div>
+                                </div>
+                            </div>
+
+                            <div class="col-4">
                                 <div class="form-group">
                                     <div class="form-check">
                                     <input class="form-check-input" type="checkbox" value="X" name="Al" id="gec_al" >
@@ -217,7 +229,7 @@
                                 </div>
                             </div>
 
-                            <div class="col-5">
+                            <div class="col-4">
                                     <div class="form-group">
                                         <div class="form-check">
                                         <input class="form-check-input" type="checkbox" value="X" name="Ol" id="gce-ol">
@@ -309,7 +321,7 @@
 
         <!-- Footer -->
 	        <div class="row text-center">
-                <div class="col bg-dark text-white text-uppercase pt-3">
+                <div class="col bg-dark text-light text-uppercase pt-3">
                     <h6>&#169 Copyright 2021 ILS Institute. All right reserved. |</h6> 
                     <p>Designed By: A.M. Asky</p>
                 </div>

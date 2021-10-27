@@ -24,6 +24,7 @@
         $whatsapp=$_POST['whatsapp'];
         $Ol=$_POST['Ol'];
         $Al=$_POST['Al'];
+        $deg=$_POST['deg'];
         $grade=$_POST['grade'];
         $high=$_POST['high'];
         $occu=$_POST['occu'];
@@ -244,15 +245,18 @@
 
         $pdf->SetFont("","",11);
         $pdf->Cell(0,10,"",0,1);
-        $pdf->Cell(113,0,"",0,0,);
+        $pdf->Cell(136,0,"",0,0,);
         $pdf->Cell(0,0,"{$Al}",0,1);
 
-        $pdf->Cell(160,0,"",0,0,);
+        $pdf->Cell(170,0,"",0,0,);
         $pdf->Cell(0,0,"{$Ol}",0,1);
+
+        $pdf->Cell(102,0,"",0,0,);
+        $pdf->Cell(0,0,"{$deg}",0,1);
 
         $pdf->Cell(0,2,"",0,1);
         $pdf->Cell(80,0,"",0,0);
-        $pdf->Cell(0,0,":- GCE(A/L)........................... GCE(O/L)...........................",0,0);
+        $pdf->Cell(0,0,":- Degree..............  GCE(A/L)..............  GCE(O/L)..............",0,0);
 
 
 
