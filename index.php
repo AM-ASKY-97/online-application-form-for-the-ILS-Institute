@@ -53,7 +53,7 @@
         </div>
 
 
-        <form action="form.php" method="post">
+        <form action="form.php" method="post" autocomplete="off">
 
             <div class="form-qroup">
                 <div class="row mt-3 font-weight-bold">
