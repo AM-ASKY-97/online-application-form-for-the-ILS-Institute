@@ -46,9 +46,10 @@
         
         </div>
 
+        
         <div class="row">
-            <div class="col">
-                <hr style="height:2px;border-width:0;color:gray;background-color:gray">
+            <div class="col bg-secondary text-white text-uppercase">
+                <marquee behavior="" direction="" scrollamount="5">Welcome to the Institute of Language Studies (ILS) Online Application System  </marquee>
             </div>
         </div>
 
