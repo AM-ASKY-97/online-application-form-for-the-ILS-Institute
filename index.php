@@ -49,7 +49,7 @@
         
         <div class="row">
             <div class="col bg-secondary text-white text-uppercase">
-                <marquee behavior="" direction="" scrollamount="5">Welcome to the Institute of Language Studies (ILS) Online Application System  </marquee>
+                <marquee behavior="" direction="" scrollamount="2">Welcome to the Institute of Language Studies (ILS) Online Application System  </marquee>
             </div>
         </div>
 
