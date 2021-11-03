@@ -15,6 +15,10 @@
     <link rel="stylesheet" href="style.css">
 
     <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/waypoints/4.0.1/jquery.waypoints.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/Counter-Up/1.0.0/jquery.counterup.min.js"></script>
 </head>
   <body style="background-color: #6a46bc;">
       
@@ -39,10 +43,14 @@
                   <h5><b>Mobile & Whatsapp : 077-6542915 & 075-7697386</b></h5>  
               </div>
 
+              
+
               <!--Photo-->
               <div class="col-md-2 d-none d-lg-block">
                   <div class="photo">Affix here a Passport <br> Size Photo</div>
               </div>
+
+              <div class="counter">1500</div>
         
         </div>
 
@@ -331,10 +339,22 @@
 
      </div>   
 
+     
+
+    
+    <script>
+        $(document).ready(function(){
+            $(".counter").counterUp({
+                delay:10,
+                time:1200
+            });
+        });
+    </script>
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
   </body>
