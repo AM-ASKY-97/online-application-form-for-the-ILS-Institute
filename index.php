@@ -49,8 +49,6 @@
               <div class="col-md-2 d-none d-lg-block">
                   <div class="photo">Affix here a Passport <br> Size Photo</div>
               </div>
-
-              <div class="counter">1500</div>
         
         </div>
 
@@ -337,19 +335,7 @@
             </div>
         <!-- End Footer -->
 
-     </div>   
-
-     
-
-    
-    <script>
-        $(document).ready(function(){
-            $(".counter").counterUp({
-                delay:10,
-                time:1200
-            });
-        });
-    </script>
+     </div>  
 
 
     <!-- Optional JavaScript -->
