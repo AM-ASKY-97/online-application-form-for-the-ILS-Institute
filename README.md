@@ -2,7 +2,7 @@
 
 ### Introduction
 
-<p align="justify">The application form for the particular institution finally generates the pdf file of the student information. </p>
+<p align="justify">This application used for, when a student give there details it will convert to pdf format. It won't be saved in database</p>
 
 <p>Used Stack : HTML 5, CSS, Bootstrap, PHP, JavaScript, FPDF. </p>
 
