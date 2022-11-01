@@ -12,7 +12,7 @@ http://ils-institute.herokuapp.com/ </p>
 <h2 align="center">Screenshot of UI</h2>
 
 <h3>Application Form</h3>
-<img src="https://user-images.githubusercontent.com/89337309/198518951-21d0e0ed-e6e5-41d8-b5d1-f6db85ab400f.png">
+<img src="https://user-images.githubusercontent.com/89337309/199316457-1a6add43-f465-4247-acdf-8f74969680ca.png">
 
 <h3>Finally generates the pdf file of the student information</h3>
 <img src="https://user-images.githubusercontent.com/89337309/196257187-19923d87-531e-4926-809e-02a38b7e9711.PNG">
