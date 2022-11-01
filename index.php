@@ -22,7 +22,7 @@
 </head>
   <body style="background-color: #6a46bc;">
       
-     <div class="container mt-2 mb-2 border border-dark rounded bg-light">
+     <div class="container border border-dark rounded bg-light">
          <div class="row mt-3">
               <!--logo-->
               <div class="col-md-2 d-none d-lg-block">
