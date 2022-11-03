@@ -2,7 +2,7 @@
 
 ### Introduction
 
-<p align="justify">This application is used for when a student gives their details and it will be converted to pdf format. It won't be saved in the database.</p>
+<p align="justify">This application is used when a student gives their details and it will be converted to pdf format. It won't be saved in the database.</p>
 
 <p>Used Stack : HTML 5, CSS, Bootstrap, PHP, JavaScript, FPDF. </p>
 
