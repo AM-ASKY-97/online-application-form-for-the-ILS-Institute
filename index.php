@@ -347,9 +347,8 @@
 
         <!-- Footer -->
         <div class="row text-center">
-            <div class="col bg-dark text-light text-uppercase pt-3">
-                <h6>&#169 Copyright 2021 ILS Institute. All right reserved. </h6>
-                <p>Designed By : <a href="http://am-asky97.herokuapp.com/"> A.M. Asky</a> </p>
+            <div class="col bg-dark text-light p-4">
+                <h6 class="pt-2">&#169 Copyright 2021 ILS Institute. All right reserved. Designed By : <a href="http://am-asky97.herokuapp.com/" class="text-light"> Asky AM</a></h6>
             </div>
         </div>
         <!-- End Footer -->
