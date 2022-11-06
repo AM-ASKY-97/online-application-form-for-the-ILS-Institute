@@ -108,7 +108,7 @@
             <div class="form-group">
                 <div class="row">
                     <div class="col-md-4 font-weight-bold">
-                        <label class="col-form-label" for="initial">1. Name with Initials</label>
+                        <label class="col-form-label" for="initial">Name with Initials</label>
                     </div>
 
                     <div class="col-md-8">
@@ -120,7 +120,7 @@
             <div class="form-group">
                 <div class="row">
                     <div class="col-md-4 font-weight-bold">
-                        <label class="col-form-label" for="Name">2. Name/Names denoted by Initials</label>
+                        <label class="col-form-label" for="Name">Name denoted by Initials</label>
                     </div>
 
                     <div class="col-md-8">
@@ -132,7 +132,7 @@
             <div class="form-group">
                 <div class="row">
                     <div class="col-md-4 font-weight-bold">
-                        <label class="col-form-label" for="address">3. Address</label>
+                        <label class="col-form-label" for="address">Address</label>
                     </div>
 
                     <div class="col-md-8">
@@ -145,7 +145,7 @@
             <div class="form-group">
                 <div class="row">
                     <div class="col-md-4 font-weight-bold">
-                        <label class="col-form-label" for="address">4. Date of Birth</label>
+                        <label class="col-form-label" for="address">Date of Birth</label>
                     </div>
 
                     <div class="col-md-8">
@@ -170,7 +170,7 @@
             <div class="form-group">
                 <div class="row">
                     <div class="col-md-4 font-weight-bold">
-                        <label class="col-form-label" for="nic">5. National Identity Card No</label>
+                        <label class="col-form-label" for="nic">National Identity Card No</label>
                     </div>
 
                     <div class="col-md-8">
@@ -183,13 +183,15 @@
             <div class="form-group">
                 <div class="row">
                     <div class="col-md-4 font-weight-bold">
-                        <label class="col-form-label" for="nic">6. Sex</label>
+                        <label class="col-form-label" for="nic">Gender</label>
                     </div>
 
                     <div class="col-md-8">
-                        <div class="row cont">
-                            <div class="col-4"><label class="radio-inline"><input type="radio" name="sex" value="Male">Male</label></div>
-                            <div class="col-4"><label class="radio-inline"><input type="radio" name="sex" value="Female">Female</label></div>
+                        <div class="cont">
+                            <div class="row">
+                                <div class="col-4"><label class="radio-inline"><input type="radio" name="sex" value="Male">Male</label></div>
+                                <div class="col-4"><label class="radio-inline"><input type="radio" name="sex" value="Female">Female</label></div>
+                            </div>
                         </div>
                     </div>
                 </div>
@@ -198,7 +200,7 @@
             <div class="form-group">
                 <div class="row">
                     <div class="col-md-4 font-weight-bold">
-                        <label class="col-form-label" for="address">7. Contact No</label>
+                        <label class="col-form-label" for="address">Contact No</label>
                     </div>
 
                     <div class="col-md-8">
@@ -219,13 +221,13 @@
             <div class="form-qroup">
                 <div class="row mt-3 ">
                     <div class="col-md-4">
-                        <label for="Course" class="font-weight-bold">8. Education Qualification</label>
+                        <label for="Course" class="font-weight-bold">Education Qualification</label>
                     </div>
                     <div class="col-md-8">
                         <div class="cont">
                             <div class="row">
 
-                                <div class="col-3">
+                                <div class="col-6 col-xl-3">
                                     <div class="form-group">
                                         <div class="form-check">
                                             <input class="form-check-input" type="radio" value="Degree" name="edu" id="degree">
@@ -236,7 +238,7 @@
                                     </div>
                                 </div>
 
-                                <div class="col-3">
+                                <div class="col-6 col-xl-3">
                                     <div class="form-group">
                                         <div class="form-check">
                                             <input class="form-check-input" type="radio" value="Gce (A/L)" name="edu" id="gec_al">
@@ -247,7 +249,7 @@
                                     </div>
                                 </div>
 
-                                <div class="col-3">
+                                <div class="col-6 col-xl-3">
                                     <div class="form-group">
                                         <div class="form-check">
                                             <input class="form-check-input" type="radio" value="Gce (O/L)" name="edu" id="gce-ol">
@@ -258,7 +260,7 @@
                                     </div>
                                 </div>
 
-                                <div class="col-3">
+                                <div class="col-6 col-xl-3">
                                     <div class="form-group">
                                         <div class="form-check">
                                             <input class="form-check-input" type="radio" value="other" name="edu" id="other">
@@ -275,22 +277,16 @@
             </div>
 
 
-            <div class="form-group">
+            <div class="form-group" id="textboxes" style="display: none">
                 <div class="row">
                     <div class="col-md-4 font-weight-bold">
-                        <label class="col-form-label" for="address"></label>
+                        <label class="col-form-label" for="address">Grade</label>
                     </div>
 
-                    <div class="col-md-8" id="textboxes" style="display: none">
-                        <div class="row">
-                            <div class="col-2">
-                                <label class="col-form-label" for="address">Grade</label>
-                            </div>
+                    <div class="col-md-8">
 
-                            <div class="col-4">
-                                <input type="text" class="form-control" placeholder="grade" name="ed">
-                            </div>
-                        </div>
+                        <input type="text" class="form-control" placeholder="grade" name="ed">
+
                     </div>
                 </div>
             </div>
@@ -299,7 +295,7 @@
             <div class="form-group">
                 <div class="row">
                     <div class="col-md-4 font-weight-bold">
-                        <label class="col-form-label" for="hight">9. Highest Qualification in English as a subject</label>
+                        <label class="col-form-label" for="hight">Highest Qualification in English as a subject</label>
                     </div>
 
                     <div class="col-md-8">
@@ -312,7 +308,7 @@
             <div class="form-group">
                 <div class="row">
                     <div class="col-md-4 font-weight-bold">
-                        <label class="col-form-label" for="any">10. Details of Occupation (If any) </label>
+                        <label class="col-form-label" for="any">Details of Occupation (If any) </label>
                     </div>
 
                     <div class="col-md-8">
@@ -321,26 +317,26 @@
                 </div>
             </div>
 
-            <div class="row">
+            <div class="row pt-3">
                 <div class="col font-weight-bold">
                     <p>I hereby certify that the information furnished here is true and accurate to the best of my knowledge</p>
                 </div>
             </div>
 
 
-            <div class="checkbox font-weight-bold">
+            <!-- <div class="checkbox font-weight-bold">
                 <label><input type="checkbox"> The information is all correct</label>
-            </div>
+            </div> -->
 
             <br>
 
             <div class="row mb-3 ">
                 <div class="col-6 font-weight-bold">
-                    <button type="submit" class="btn btn-success  btn-block submit">Submit</button>
+                    <button type="submit" class="btn btn-success  btn-block submit"><i class="fa fa-check-circle" aria-hidden="true"></i> Submit</button>
                 </div>
 
                 <div class="col-6">
-                    <button type="reset" class="btn btn-danger  btn-block">Reset</button>
+                    <button type="reset" class="btn btn-danger  btn-block"><i class="fa fa-trash-o" aria-hidden="true"></i> Reset</button>
                 </div>
 
             </div>
@@ -353,7 +349,7 @@
         <div class="row text-center">
             <div class="col bg-dark text-light text-uppercase pt-3">
                 <h6>&#169 Copyright 2021 ILS Institute. All right reserved. </h6>
-                <p>| Designed By : <a href="http://am-asky97.herokuapp.com/"> A.M. Asky</a> </p>
+                <p>Designed By : <a href="http://am-asky97.herokuapp.com/"> A.M. Asky</a> </p>
             </div>
         </div>
         <!-- End Footer -->

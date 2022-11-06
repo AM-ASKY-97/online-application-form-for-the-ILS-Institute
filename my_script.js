@@ -44,14 +44,6 @@ function Login() {
                     maxlength: 10,
                     minlength: 10
                 },
-                whatsapp: {
-                    required: true,
-                    digits: true,
-                    maxlength: 10,
-                    minlength: 10
-                },
-                high: "required",
-                occu: "required",
             },
             messages: {
                 fname: "Please enter your Name with Initials",
