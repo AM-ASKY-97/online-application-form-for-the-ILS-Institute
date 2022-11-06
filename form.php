@@ -1,7 +1,5 @@
 <?php 
-         $english="-";
-         $sinhala="-";
-         $grade="-";
+         $course="-";
          $whatsapp="-";
          $mobile="-";
          $Ol="-";
@@ -10,8 +8,7 @@
          $occu="-";
          $nic="-";
 
-        $english=$_POST['english'];
-        $sinhala=$_POST['sinhala'];
+        $course=$_POST['course'];
         $name =$_POST['fname'];
         $iname  =$_POST['iname'];
         $address=$_POST['address'];
@@ -22,12 +19,20 @@
         $sex=$_POST['sex'];
         $mobile=$_POST['mobile'];
         $whatsapp=$_POST['whatsapp'];
-        $Ol=$_POST['Ol'];
-        $Al=$_POST['Al'];
-        $deg=$_POST['deg'];
-        $grade=$_POST['grade'];
+        $edu=$_POST['edu'];
+        $ed=$_POST['ed'];
+        //$deg=$_POST['deg'];
         $high=$_POST['high'];
         $occu=$_POST['occu'];
+
+        if ($edu != "other")
+        {
+            $newEdu = $edu;
+        }
+
+        else{
+            $newEdu = $ed;
+        }
 
        
         
@@ -84,7 +89,7 @@
         $pdf->Cell(152,0,"",0,0);
         $pdf->Cell(30,40,"Passport Size Photo",0,0);
         
-        $pdf->image('Najeem HETC.png',5,11,50,60,'png');
+        $pdf->image('./Assets/image/Najeem HETC.png',5,11,50,60,'png');
         
 
         $pdf->SetFont("","B",12);
@@ -95,7 +100,7 @@
         $pdf->SetFont("","",11);
         $pdf->Cell(0,48,"",0,1);
         $pdf->Cell(84,0,"",0,0,);
-        $pdf->Cell(0,0,"{$english}",0,1);
+        $pdf->Cell(0,0,"{$course}",0,1);
 
         $pdf->Cell(0,2,"",0,1);
         $pdf->Cell(80,0,"",0,0);
@@ -104,11 +109,11 @@
         $pdf->SetFont("","",11);
         $pdf->Cell(0,6,"",0,1);
         $pdf->Cell(84,0,"",0,0,);
-        $pdf->Cell(0,0,"{$sinhala}",0,1);
+        //$pdf->Cell(0,0,"{}",0,1);
 
         $pdf->Cell(0,2,"",0,1);
         $pdf->Cell(80,0,"",0,0);
-        $pdf->Cell(0,1,":- ...........................................................................................",0,0);
+       // $pdf->Cell(0,1,":- ...........................................................................................",0,0);
 
         
 
@@ -245,35 +250,20 @@
 
         $pdf->SetFont("","",11);
         $pdf->Cell(0,10,"",0,1);
-        $pdf->Cell(136,0,"",0,0,);
-        $pdf->Cell(0,0,"{$Al}",0,1);
+        $pdf->Cell(84,0,"",0,0,);
+        $pdf->Cell(0,0,"{$newEdu}",0,1);
 
         $pdf->Cell(170,0,"",0,0,);
-        $pdf->Cell(0,0,"{$Ol}",0,1);
+        //$pdf->Cell(0,0,"{$edu}",0,1);
 
         $pdf->Cell(102,0,"",0,0,);
-        $pdf->Cell(0,0,"{$deg}",0,1);
+        //$pdf->Cell(0,0,"{$edu}",0,1);
 
         $pdf->Cell(0,2,"",0,1);
         $pdf->Cell(80,0,"",0,0);
-        $pdf->Cell(0,0,":- Degree..............  GCE(A/L)..............  GCE(O/L)..............",0,0);
+        $pdf->Cell(0,0,":- ....................................................",0,0);
 
 
-
-
-        $pdf->SetFont("","",12);
-        $pdf->Cell(0,0,"",0,1);
-        $pdf->Cell(3,0,"",0,0);
-        $pdf->Cell(0,25,"",0,0,);
-
-        $pdf->SetFont("","",11);
-        $pdf->Cell(0,8,"",0,1);
-        $pdf->Cell(110,0,"",0,0,);
-        $pdf->Cell(0,0,"{$grade}",0,1);
-
-        $pdf->Cell(0,2,"",0,1);
-        $pdf->Cell(80,0,"",0,0);
-        $pdf->Cell(0,0,":- Grade ...................................",0,0);
 
 
 
@@ -313,14 +303,13 @@
         $pdf->SetFont("","B",10);
         $pdf->Cell(0,0,"",0,1);
         $pdf->Cell(9,0,"",0,0);
-        $pdf->Cell(0,20,"I hereby ertify that the information furnished here is tru and accurate and to the best of my Knowledge",0,0,);
-
+        $pdf->Cell(0,25,"I hereby ertify that the information furnished here is tru and accurate and to the best of my Knowledge",0,0,);
 
 
         $pdf->SetFont("","",11);
         $pdf->Cell(0,10,"",0,1);
         $pdf->Cell(9,0,"",0,0);
-        $pdf->Cell(0,25,"Date : ..................................",0,0,);
+        $pdf->Cell(0,30,"Date : ..................................",0,0,);
 
 
         
@@ -365,18 +354,18 @@
         $pdf->SetFont("","B",14);
         $pdf->Cell(0,0,"",0,1);
         $pdf->Cell(35,0,"",0,0,);
-        $pdf->Cell(0,29,"ILS Institute",0,0);
+        $pdf->Cell(0,40,"ILS Institute",0,0);
 
         $pdf->SetFont("","",11);
         $pdf->Cell(0,06,"",0,1);
         $pdf->Cell(35,0,"",0,0,);
-        $pdf->Cell(0,30,"Education - 393 Likes - 395 Follows",0,0);
+        $pdf->Cell(0,43,"Education - 393 Likes - 395 Follows",0,0);
 
 
         $pdf->SetFont("","B",11);
         $pdf->Cell(0,2,"",0,1);
         $pdf->Cell(133,0,"",0,0);
-        $pdf->Cell(0,0,"Entrolled and approved by",0,0);
+        $pdf->Cell(0,5,"Entrolled and approved by",0,0);
 
 
 
@@ -410,7 +399,7 @@
 
         $pdf->Cell(0,0,"",0,1);
         $pdf->Cell(150,0,"",0,0);
-        $pdf->Cell(0,21,"Director",0,0);
+        $pdf->Cell(0,25,"Director",0,0);
 
 
 
@@ -426,11 +415,7 @@
 
         $pdf->Cell(0,0,"",0,1);
         $pdf->Cell(135,0,"",0,0);
-        $pdf->Cell(0,27,"Institute of Language Studies (ILS)",0,0);
+        $pdf->Cell(0,35,"Institute of Language Studies (ILS)",0,0);
 
-        $pdf->image('pic.png',20,242,25,20,'png');
+        $pdf->image('./Assets/image/pic.png',20,242,25,20,'png');
         $pdf->output();
-
-    
-
-?>
