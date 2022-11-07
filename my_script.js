@@ -34,7 +34,6 @@ function Login() {
                     maxlength: 12,
                     minlength: 10
                 },
-                sex: "required",
                 course: "required",
                 edu: "required",
                 ed: "required",
@@ -61,7 +60,6 @@ function Login() {
                 nic: {
                     required: "Please enter your nic number",
                 },
-                sex: "Please select a gender",
                 course: "Select enrollment for the course",
                 edu: "Select Educational Qualification",
                 ed: "Please enter your grade",
@@ -92,4 +90,71 @@ $(function () {
             $('#textboxes').hide();
         }
     });
+});
+
+$('#nic').on('input', function () {
+
+    if ($('#nic').val().length == 10 && $('#nic').val().charAt(9) == "v" || $('#nic').val().charAt(9) == "V") {
+        $.ajax({
+            url: 'dob.php',
+            type: 'post',
+            data: $("#submitForm").serialize(),
+
+            success: function (msg) {
+
+                dob = msg.substring(0, 17)
+
+                gender = msg.substring(18,)
+
+                gender = gender.trim();
+
+                $('#dob').val(dob);
+
+                if (gender == "Male") {
+                    $("#male").prop("checked", true);
+                    $("#female").prop("disabled", true);
+                }
+
+                if (gender == "Female") {
+                    $("#female").prop("checked", true);
+                    $("#male").prop("disabled", true);
+                }
+            }
+        });
+    }
+
+    else if ($('#nic').val().length == 12) {
+        $.ajax({
+            url: 'dob.php',
+            type: 'post',
+            data: $("#submitForm").serialize(),
+
+            success: function (msg) {
+                dob = msg.substring(0, 17)
+
+                gender = msg.substring(20,)
+
+                gender = gender.trim();
+
+                $('#dob').val(dob);
+
+                if (gender == "Male") {
+                    $("#male").prop("checked", true);
+                }
+
+                if (gender == "Female") {
+                    $("#female").prop("checked", true);
+                }
+            }
+        });
+    }
+
+    else {
+        $('#dob').val("mm / dd / yyyy");
+        $("#male").prop("checked", false);
+        $("#female").prop("checked", false);
+        $("#female").prop("disabled", false);
+        $("#male").prop("disabled", false);
+    }
+
 });

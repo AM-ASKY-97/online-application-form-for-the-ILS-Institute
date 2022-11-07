@@ -141,32 +141,6 @@
                 </div>
             </div>
 
-
-            <div class="form-group">
-                <div class="row">
-                    <div class="col-md-4 font-weight-bold">
-                        <label class="col-form-label" for="address">Date of Birth</label>
-                    </div>
-
-                    <div class="col-md-8">
-                        <div class="row">
-                            <div class="col-4">
-                                <input type="text" class="form-control" name="year" placeholder="Year">
-                            </div>
-
-                            <div class="col-4">
-                                <input type="text" class="form-control" name="month" placeholder="Month">
-                            </div>
-
-                            <div class="col-4">
-                                <input type="text" class="form-control" name="day" placeholder="Day">
-                            </div>
-
-                        </div>
-                    </div>
-                </div>
-            </div>
-
             <div class="form-group">
                 <div class="row">
                     <div class="col-md-4 font-weight-bold">
@@ -179,6 +153,17 @@
                 </div>
             </div>
 
+            <div class="form-group">
+                <div class="row">
+                    <div class="col-md-4 font-weight-bold">
+                        <label class="col-form-label" for="address">Date of Birth</label>
+                    </div>
+
+                    <div class="col-md-8">
+                        <input type="text" class="form-control" name="dob" id="dob" placeholder="mm / dd / yyyy" disabled>
+                    </div>
+                </div>
+            </div>
 
             <div class="form-group">
                 <div class="row">
@@ -189,8 +174,8 @@
                     <div class="col-md-8">
                         <div class="cont">
                             <div class="row">
-                                <div class="col-4"><label class="radio-inline"><input type="radio" name="sex" value="Male">Male</label></div>
-                                <div class="col-4"><label class="radio-inline"><input type="radio" name="sex" value="Female">Female</label></div>
+                                <div class="col-4"><label class="radio-inline"><input type="radio" name="sex" value="Male" id="male">Male</label></div>
+                                <div class="col-4"><label class="radio-inline"><input type="radio" name="sex" value="Female" id="female">Female</label></div>
                             </div>
                         </div>
                     </div>
