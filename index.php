@@ -160,7 +160,7 @@
                     </div>
 
                     <div class="col-md-8">
-                        <input type="text" class="form-control" name="dob" id="dob" placeholder="mm / dd / yyyy" disabled>
+                        <input type="text" class="form-control" name="dob" id="dob" placeholder="mm / dd / yyyy">
                     </div>
                 </div>
             </div>

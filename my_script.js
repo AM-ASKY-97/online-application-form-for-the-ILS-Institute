@@ -108,6 +108,8 @@ $('#nic').on('input', function () {
 
                 gender = gender.trim();
 
+                dob = dob.trim();
+
                 $('#dob').val(dob);
 
                 if (gender == "Male") {
@@ -136,6 +138,8 @@ $('#nic').on('input', function () {
 
                 gender = gender.trim();
 
+                dob = dob.trim();
+
                 $('#dob').val(dob);
 
                 if (gender == "Male") {
@@ -158,3 +162,7 @@ $('#nic').on('input', function () {
     }
 
 });
+
+$('#dob').keydown(function() {
+    return false;
+  });
