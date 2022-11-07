@@ -12,9 +12,7 @@
         $name =$_POST['fname'];
         $iname  =$_POST['iname'];
         $address=$_POST['address'];
-        $year = $_POST['year'];
-        $month=$_POST['month'];
-        $day=$_POST['day'];
+        $dob = $_POST['dob'];
         $nic=$_POST['nic'];
         $sex=$_POST['sex'];
         $mobile=$_POST['mobile'];
@@ -174,18 +172,18 @@
 
         $pdf->SetFont("","",11);
         $pdf->Cell(0,10,"",0,1);
-        $pdf->Cell(97,0,"",0,0,);
-        $pdf->Cell(0,0,"{$year}",0,1);
+        $pdf->Cell(84,0,"",0,0,);
+        $pdf->Cell(0,0,"{$dob}",0,1);
 
         $pdf->Cell(129,0,"",0,0,);
-        $pdf->Cell(0,0,"{$month}",0,1);
+        $pdf->Cell(0,0,"",0,1);
 
         $pdf->Cell(155,0,"",0,0,);
-        $pdf->Cell(0,0,"{$day}",0,1);
+        $pdf->Cell(0,0,"",0,1);
 
         $pdf->Cell(0,2,"",0,1);
         $pdf->Cell(80,0,"",0,0);
-        $pdf->Cell(0,0,":- Year................. Month................. Day.................",0,0);
+        $pdf->Cell(0,0,":-........................................................",0,0);
 
 
 
