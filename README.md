@@ -4,7 +4,12 @@
 
 <p align="justify">This application is used when a student gives their details and it will be converted to pdf format. It won't be saved in the database.</p>
 
-<p>Used Stack : HTML 5, CSS, Bootstrap, PHP, JavaScript, FPDF. </p>
+<p align="justify">Gender and date of birth will be generated automatically when the user enters their NIC number.</p>
+
+<p align="justify">If the user provides the incorrect NIC number, the application cannot be submitted.</p>
+
+
+<p>Used Stack : HTML 5, CSS, Bootstrap, PHP, Ajax, jQuery, FPDF. </p>
 
 <p>Just click on this link 
 http://ils-institute.herokuapp.com/ </p>
