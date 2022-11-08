@@ -105,36 +105,42 @@ $('#nic').on('input', function () {
 
     if ($('#nic').val().length == 10 && $('#nic').val().charAt(9) == "v" || $('#nic').val().charAt(9) == "V") {
 
-        $("#submit").prop("disabled", false);
-        $('#pTest').text(' Submit')
+        var inputString = $("#nic").val();
 
-        $.ajax({
-            url: 'dob.php',
-            type: 'post',
-            data: $("#submitForm").serialize(),
+        var newString = inputString.substring(0, 9)
 
-            success: function (msg) {
+        if (/^[0-9]+$/.test(newString)) {
+            $("#submit").prop("disabled", false);
+            $('#pTest').text(' Submit')
 
-                dob = msg.substring(0, 17)
-
-                gender = msg.substring(18,)
-
-                gender = gender.trim();
-                dob = dob.trim();
-
-                $('#dob').val(dob);
-
-                if (gender == "Male") {
-                    $("#male").prop("checked", true);
-                    $("#female").prop("disabled", true);
+            $.ajax({
+                url: 'dob.php',
+                type: 'post',
+                data: $("#submitForm").serialize(),
+    
+                success: function (msg) {
+    
+                    dob = msg.substring(0, 17)
+    
+                    gender = msg.substring(18,)
+    
+                    gender = gender.trim();
+                    dob = dob.trim();
+    
+                    $('#dob').val(dob);
+    
+                    if (gender == "Male") {
+                        $("#male").prop("checked", true);
+                        $("#female").prop("disabled", true);
+                    }
+    
+                    if (gender == "Female") {
+                        $("#female").prop("checked", true);
+                        $("#male").prop("disabled", true);
+                    }
                 }
-
-                if (gender == "Female") {
-                    $("#female").prop("checked", true);
-                    $("#male").prop("disabled", true);
-                }
-            }
-        });
+            });
+        }
     }
 
     else if ($('#nic').val().length == 12) {
@@ -144,34 +150,34 @@ $('#nic').on('input', function () {
         if (/^[0-9]+$/.test(inputString)) {
             $("#submit").prop("disabled", false);
             $('#pTest').text(' Submit')
+
+            $.ajax({
+                url: 'dob.php',
+                type: 'post',
+                data: $("#submitForm").serialize(),
+    
+                success: function (msg) {
+                    dob = msg.substring(0, 17)
+    
+                    gender = msg.substring(20,)
+    
+                    gender = gender.trim();
+                    dob = dob.trim();
+    
+                    $('#dob').val(dob);
+    
+                    if (gender == "Male") {
+                        $("#male").prop("checked", true);
+                        $("#female").prop("disabled", true);
+                    }
+    
+                    if (gender == "Female") {
+                        $("#female").prop("checked", true);
+                        $("#male").prop("disabled", true);
+                    }
+                }
+            });
         }
-
-        $.ajax({
-            url: 'dob.php',
-            type: 'post',
-            data: $("#submitForm").serialize(),
-
-            success: function (msg) {
-                dob = msg.substring(0, 17)
-
-                gender = msg.substring(20,)
-
-                gender = gender.trim();
-                dob = dob.trim();
-
-                $('#dob').val(dob);
-
-                if (gender == "Male") {
-                    $("#male").prop("checked", true);
-                    $("#female").prop("disabled", true);
-                }
-
-                if (gender == "Female") {
-                    $("#female").prop("checked", true);
-                    $("#male").prop("disabled", true);
-                }
-            }
-        });
     }
 
     else {

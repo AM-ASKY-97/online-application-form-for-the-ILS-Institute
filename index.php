@@ -316,11 +316,11 @@
             <br>
 
             <div class="row mb-3 ">
-                <div class="col-6 font-weight-bold">
+                <div class="col-12 col-xl-6 font-weight-bold">
                     <button type="submit" class="btn btn-success  btn-block submit" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i><span id="pTest"> Submit</span></button>
                 </div>
 
-                <div class="col-6">
+                <div class="col-12 col-xl-6 mt-2 mt-xl-0">
                     <button type="reset" class="btn btn-danger  btn-block"><i class="fa fa-trash-o" aria-hidden="true"></i> Reset</button>
                 </div>
 
