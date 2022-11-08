@@ -68,7 +68,7 @@
 
 
 
-        <form action="form.php" id="submitForm" method="post">
+        <form action="form.php" id="submitForm" method="post" autocomplete="off">
 
             <div class="form-qroup">
                 <div class="row mt-3 font-weight-bold">
@@ -317,7 +317,7 @@
 
             <div class="row mb-3 ">
                 <div class="col-6 font-weight-bold">
-                    <button type="submit" class="btn btn-success  btn-block submit"><i class="fa fa-check-circle" aria-hidden="true"></i> Submit</button>
+                    <button type="submit" class="btn btn-success  btn-block submit" id="submit"><i class="fa fa-check-circle" aria-hidden="true"></i><span id="pTest"> Submit</span></button>
                 </div>
 
                 <div class="col-6">

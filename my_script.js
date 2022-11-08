@@ -94,7 +94,20 @@ $(function () {
 
 $('#nic').on('input', function () {
 
+    if ($('#nic').val().charAt(9) != "v" || $('#nic').val().charAt(9) != "V") {
+        $("#submit").prop("disabled", true);
+        $('#pTest').text(' Enter valid nic')
+    }
+
+    else{
+        $("#submit").prop("disabled", false);
+    }
+
     if ($('#nic').val().length == 10 && $('#nic').val().charAt(9) == "v" || $('#nic').val().charAt(9) == "V") {
+
+        $("#submit").prop("disabled", false);
+        $('#pTest').text(' Submit')
+
         $.ajax({
             url: 'dob.php',
             type: 'post',
@@ -107,7 +120,6 @@ $('#nic').on('input', function () {
                 gender = msg.substring(18,)
 
                 gender = gender.trim();
-
                 dob = dob.trim();
 
                 $('#dob').val(dob);
@@ -126,6 +138,10 @@ $('#nic').on('input', function () {
     }
 
     else if ($('#nic').val().length == 12) {
+
+        $("#submit").prop("disabled", false);
+        $('#pTest').text(' Submit')
+
         $.ajax({
             url: 'dob.php',
             type: 'post',
@@ -137,17 +153,18 @@ $('#nic').on('input', function () {
                 gender = msg.substring(20,)
 
                 gender = gender.trim();
-
                 dob = dob.trim();
 
                 $('#dob').val(dob);
 
                 if (gender == "Male") {
                     $("#male").prop("checked", true);
+                    $("#female").prop("disabled", true);
                 }
 
                 if (gender == "Female") {
                     $("#female").prop("checked", true);
+                    $("#male").prop("disabled", true);
                 }
             }
         });
@@ -160,9 +177,8 @@ $('#nic').on('input', function () {
         $("#female").prop("disabled", false);
         $("#male").prop("disabled", false);
     }
-
 });
 
-$('#dob').keydown(function() {
+$('#dob').keydown(function () {
     return false;
-  });
+});
