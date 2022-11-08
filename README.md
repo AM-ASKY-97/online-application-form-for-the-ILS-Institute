@@ -17,7 +17,7 @@ http://ils-institute.herokuapp.com/ </p>
 <h2 align="center">Screenshot of UI</h2>
 
 <h3>Application Form</h3>
-<img src="https://user-images.githubusercontent.com/89337309/199316457-1a6add43-f465-4247-acdf-8f74969680ca.png">
+<img src="https://user-images.githubusercontent.com/89337309/200521723-f8764b03-5542-4a2d-a3ce-d428ef75b310.png">
 
 <h3>Validation for Application Form with jQuery</h3>
 <img src="https://user-images.githubusercontent.com/89337309/200519265-dbeb6c35-0046-46cc-8750-71df18f15e4c.jpeg">
@@ -29,7 +29,7 @@ http://ils-institute.herokuapp.com/ </p>
 <img src="https://user-images.githubusercontent.com/89337309/200519593-14b0f076-4585-4ede-a66c-151859369b92.jpeg">
 
 <h3>Finally generates the pdf file of the student information</h3>
-<img src="[https://user-images.githubusercontent.com/89337309/200519719-dcb45b1f-b19f-4f97-8ecb-2d68eeff9858.jpeg](https://user-images.githubusercontent.com/89337309/200521035-003ded80-cdd3-42d5-905a-c1c3448aad2e.jpeg)">
+<img src="https://user-images.githubusercontent.com/89337309/200521828-d9829257-4075-4514-9f8f-c624954f52d2.jpeg">
 
 
 <h3>Thank You</h3>
