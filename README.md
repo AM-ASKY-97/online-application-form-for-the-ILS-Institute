@@ -1,4 +1,4 @@
-<h1 align="center">Application Form - ILS Institute</h1>
+<h1 align="center">Online application form for the ILS Institute</h1>
 
 ### Introduction
 
