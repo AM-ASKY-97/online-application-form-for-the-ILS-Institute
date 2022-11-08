@@ -99,7 +99,7 @@ $('#nic').on('input', function () {
         $('#pTest').text(' Enter valid nic')
     }
 
-    else{
+    else {
         $("#submit").prop("disabled", false);
     }
 
@@ -139,8 +139,12 @@ $('#nic').on('input', function () {
 
     else if ($('#nic').val().length == 12) {
 
-        $("#submit").prop("disabled", false);
-        $('#pTest').text(' Submit')
+        var inputString = $("#nic").val();
+
+        if (/^[0-9]+$/.test(inputString)) {
+            $("#submit").prop("disabled", false);
+            $('#pTest').text(' Submit')
+        }
 
         $.ajax({
             url: 'dob.php',
